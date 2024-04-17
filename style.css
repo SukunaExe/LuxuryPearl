@@ -298,6 +298,14 @@ footer .logos-réseaux img:hover {
     object-fit: cover;
 }
 
+@media all and (max-width: 1050px) { 
+    .creations img {
+        width: 15em;
+        height: auto;
+        object-fit: cover;
+    }
+}
+
 form {
     display: flex;
     flex-direction: column;
